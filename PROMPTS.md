@@ -1,0 +1,170 @@
+# Deckblade Dash hero prompts
+
+Paste **STYLE** first, then one **CHARACTER** block, then one **OUTPUT** block. Attach the pictures in `ref/` as style
+references when the tool accepts images (`ref/hero-combo-1.png` and `ref/looks-lineup.png` matter most).
+
+---
+
+## STYLE (always paste this first)
+
+```
+Pixel art game sprite for a 2.5D side-scrolling action game, in the tradition of hand-pixelled Korean arcade brawler
+sprites (detailed, elegant, slender proportions, rich costume detail), but locked to a strict, small, clean pixel grid
+so it sits with the game's existing art.
+
+Hard rules:
+- True pixel art. Every pixel is a crisp square on one exact grid. No anti-aliasing, no blur, no soft brushes, no
+  gradients, no painterly texture, no glow halos, no sub-pixel detail, no JPEG noise.
+- The character is 64 pixels tall from sole to crown at native size. Draw it upscaled exactly 8x (each art pixel =
+  an 8 x 8 block), so the figure is 512 px tall. Do not mix pixel sizes.
+- Side view facing RIGHT, turned about 20 degrees toward the viewer (three-quarter side view), feet flat on one
+  horizontal baseline.
+- Proportions: about 6.5 heads tall, slim and long-legged, a small head, readable hands; a heroic, agile swordsman,
+  not chibi, not bulky.
+- Light comes from the upper left and slightly in front. Each material uses a short ramp of 4 to 6 flat tones (lit
+  side, mid, shade, deep shade), shadows shifted cooler and toward blue-violet, highlights warmer. Light dithering
+  only on large flat areas such as a cape.
+- A 1-pixel outline: near-black #0e0c14 around the whole silhouette; inside the figure, outlines take a darker tone
+  of the colour they enclose (selective outline), so details stay crisp but not heavy.
+- Limited palette: at most 32 colours for the whole character, flat, no colour that appears only once.
+- Background fully transparent (if transparency is not possible: one flat #ff00ff magenta, no shadow, no floor).
+- No text, no logo, no watermark, no frame, no border, no ground shadow, no magic effects, no motion lines, no
+  sparkles: the game draws its own effects.
+- One character only, the whole body in frame with an empty margin of at least 4 art pixels all round.
+```
+
+---
+
+## CHARACTER (pick one)
+
+Colours are the game's own for each look; keep them so the character still reads as itself.
+
+### hero · 晨霜 Dawnfrost (the default)
+```
+Dawnfrost, a young wandering swordsman in close-fitting ice-blue light armour over a dark navy undersuit: a short
+open-faced helm with a small swept crest, layered shoulder plates, a fitted breastplate, segmented tassets over the
+hips, armoured boots and gauntlets. A straight longsword with a gold guard held low in the right hand. Short pale hair
+under the helm. Palette: lit #e8f4ff, #a9cdea, mid #6f97c6, shade #4a6198, belt #3c4c80, deep #2b3563 and #1d2348,
+gold accent #ffcf3a. Calm, sharp, quietly confident.
+```
+
+### ironblood · 赤狮 Lionheart (floor 10)
+```
+Lionheart, a knight in a closed great helm crowned by a tall crimson lion's-mane crest, heavy plated pauldrons,
+polished steel plate, a crimson cape lined in gold falling behind him. Palette: steel #eef2f8, #b4bccc, #7a8498,
+#4e566a, #22262f; gold trim #ffc23d; crimson cape. Steady, noble, immovable.
+```
+
+### jadegale · 青岚 Jade Gale (floor 20)
+```
+Jade Gale, a forest ranger: a high ponytail with one feather, a hood thrown back, a long green cloak, a leather
+jerkin and a quiver strap across the chest, soft boots. Palette: leather #e6d2a8, #b8946a, #80643e, #54402a,
+#1e160e; cloak green; accent #9ae07a. Light-footed, alert.
+```
+
+### nightcrow · 夜鸦 Nightcrow (floor 30)
+```
+Nightcrow, a shadow-walker in a deep pointed hood that hides the face but for two cold cyan eyes, a cowl over the
+shoulders, dark wrapped clothing and a long tattered cape. Palette: #d0cce6, #9690b4, #686284, #46425e, #18152a;
+eyes and trims #6ff0ff. Silent, menacing.
+```
+
+### sunforged · 金曜 Sunforged (floor 40)
+```
+Sunforged, a holy warden in a winged helm open at the face under a thin halo, gold pauldrons, a white surcoat over
+gold armour, a long white cape. Palette: gold #fff6d2, #f2d27a, #c8962e, #8a5e18, #3a2208; red accent #c8281f and
+#ff4a3a; white cloth. Radiant, solemn.
+```
+
+### snowfield · 雪原 Snowfield (floor 60)
+```
+Snowfield, a watchman of the snowfields in a long blue greatcoat, a great round fur hat, a thick fur collar and fur at
+the cuffs and boots. Palette: #c8dcf4, #8aa8d8, #5a78b0, #3a5288, #1a2a4a; fur #ffffff with cool grey shade.
+Weathered, patient.
+```
+
+### emberwake · 余烬 Emberwake (floor 80)
+```
+Emberwake, a child of fire: hair of flame that burns white at the tips, a charred dark body with embers glowing in
+the cracks, a torn orange sash, bare forearms. Palette: #ffc070, #b85a34, #5e3a34, #3a2828, #160e10; fire #ff5a1d and
+#ffc23d. Restless, fierce. (Flames are drawn as flat pixel shapes, not glow.)
+```
+
+### frostblade · 霜刃 Frostblade (class: Blade Master)
+```
+Frostblade, a ronin of the frost: white hair swept back in sharp spikes, a long cyan scarf flying behind, a fitted
+dark-blue kimono top, wide hakama trousers, a katana at the hip and one in hand. Palette: #c8d8f4, #8ea4d8, #5a70b0,
+#3a4a84, #141a34; scarf #3ad0f0 and #a6ecff. Cold, precise.
+```
+
+### brassgun · 铜炮 Brassgun (class: Gunner)
+```
+Brassgun, a gunslinger: messy hair under brass goggles, a long olive coat with its collar up, a bandolier across the
+chest, a heavy brass hand cannon held low. Palette: #d8c8a8, #a8946c, #766444, #4e422c, #1e180e; brass #ffb04a.
+Cocky, battle-worn.
+```
+
+### mossfist · 苍拳 Moss Fist (class: Brawler)
+```
+Moss Fist, a monk of the fist: shaven head but for one long braid, a red headband with two trailing tails, bare
+muscular arms with wrapped forearms, a green sash, loose trousers and wrapped feet. Palette: skin #ffe6cc, #f0b88c,
+#c07c56, #80482e; sash #5a9a3a; headband red. Grounded, disciplined.
+```
+
+### runeweave · 秘纹 Runeweave (class: Elementalist)
+```
+Runeweave, a rune-weaver in a tall wide-brimmed hat with a bent tip and a deep violet robe whose hem carries glowing
+gold runes (drawn as flat pixel marks), a staff in one hand. Palette: #f2e2ff, #c08cff, #8a5ad8, #5a32a0, #1e0e3a;
+runes #ffcf3a. Mysterious, poised.
+```
+
+### starsea · 星海 Starsea (1 rebirth)
+```
+Starsea, a navigator of the star sea: a black tricorne with a pink plume, a long navy coat with gold buttons and cuffs,
+a long tail of hair, a sabre. Palette: #d8f0ff, #7aa8e8, #3e5cb0, #24307a, #0c1238; plume #ff8ad0; gold buttons.
+Dashing, adventurous.
+```
+
+### voidborn · 虚空 Voidborn (3 rebirths)
+```
+Voidborn, a lord of the void: a crown of bone horns over a face of shadow with two violet eyes, dark plate under a long
+ragged cape, a black greatsword. Palette: #ecebf4, #74748a, #40404f, #28283a, #0a0a10; eyes and trims #c07aff.
+Regal, terrifying.
+```
+
+---
+
+## OUTPUT (pick one)
+
+### A. Standing sprite (do these first, one per character)
+```
+Output: the character standing at ease, weapon lowered, facing right, on its own. Image 768 x 640 px.
+```
+
+### B. Character sheet (the default hero first)
+```
+Output: one image with the same character three times on one shared baseline, evenly spaced, identical scale and
+palette: (1) standing facing right, (2) facing the viewer, (3) seen from behind. Image 1536 x 640 px.
+```
+
+### C. Animation strip (only after A looks right; attach the approved A as the reference)
+```
+Output: an animation strip of N frames in one row, every frame in an equal 96 x 80 art-pixel cell (768 x 640 px at
+8x), the character's feet on the same baseline in every cell, same scale and palette as the reference sprite, no
+effects. Frames: <pick one>
+- idle, 4 frames: a slow breath, shoulders rise and fall 1 pixel.
+- run, 8 frames: a fast forward run, body leaning in, cape and hair streaming back.
+- slash, 6 frames: wind-up, the blade raised behind; a fast forward diagonal cut; follow-through; recover.
+- cast, 4 frames: the free hand raised forward, palm open.
+- hit, 2 frames: knocked back, head thrown back.
+- jump, 4 frames: crouch, launch, top of the arc, land.
+```
+
+---
+
+## Checklist before a picture is kept
+
+- Downscaled to 1/8 with nearest-neighbour, every pixel is one flat colour (no stray in-between tones at the edges).
+- The figure is 64 px tall, faces right, feet on the baseline.
+- At most 32 colours; the outline is the same near-black all round.
+- Next to `ref/looks-lineup.png` at the same pixel size, it looks like the same game, just more detailed.
