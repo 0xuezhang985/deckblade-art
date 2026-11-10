@@ -22,3 +22,11 @@
 依据上游 90fadde，保留第二轮的透明轮廓、朝向与脚底基线，仅细化四张站姿的内部像素。铜炮 14 色；虚空、余烬、夜鸦各 13 色。其余九张站姿、晨霜三视图及六组动作不变。
 
 ![目标样板、第二轮与第三轮对照](previews/third-pass.png)
+
+## 晨霜 · 战斗骨架分件
+
+[原生 104×124 图集](parts/dawnfrost-parts.png) · [八倍 PNG](parts/dawnfrost-parts-8x.png) · [含骨架规格、姿势和组装器的 ZIP](packages/deckblade-dawnfrost-parts.zip) · [上游组装器的原始输出](previews/dawnfrost-skeleton.png)
+
+8 个有效部件，披风格留空。按上游 5250bdf 的 parts.json 使用，原生与八倍图复现相同组装结果。下图使用上游 5 组 19 个姿势及扩展画布，仅作预览。
+
+![晨霜骨架动作](previews/dawnfrost-skeleton.gif)
