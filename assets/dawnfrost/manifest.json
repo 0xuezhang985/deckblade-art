@@ -100,5 +100,9 @@
       ],
       "loop": true
     }
-  }
+  },
+  "turnaroundFrameSize": [
+    96,
+    80
+  ]
 }

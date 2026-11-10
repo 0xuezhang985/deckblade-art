@@ -45,7 +45,7 @@
     {
       "id": "nightcrow",
       "name": "Nightcrow",
-      "colors": 10,
+      "colors": 8,
       "bounds": [
         29,
         8,
@@ -81,11 +81,11 @@
     {
       "id": "emberwake",
       "name": "Emberwake",
-      "colors": 13,
+      "colors": 8,
       "bounds": [
-        33,
+        34,
         8,
-        62,
+        60,
         71
       ],
       "feetBaselineY": 71
@@ -105,11 +105,11 @@
     {
       "id": "brassgun",
       "name": "Brassgun",
-      "colors": 14,
+      "colors": 11,
       "bounds": [
         34,
         8,
-        60,
+        61,
         71
       ],
       "feetBaselineY": 71
@@ -153,14 +153,15 @@
     {
       "id": "voidborn",
       "name": "Voidborn",
-      "colors": 12,
+      "colors": 8,
       "bounds": [
-        26,
+        24,
         8,
-        69,
+        71,
         71
       ],
       "feetBaselineY": 71
     }
-  ]
+  ],
+  "reworkPromptCommit": "17ef850b9132a926988cc8298d9fd59fbb010ec5"
 }
