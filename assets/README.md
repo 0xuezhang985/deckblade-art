@@ -30,3 +30,9 @@
 8 个有效部件，披风格留空。按上游 5250bdf 的 parts.json 使用，原生与八倍图复现相同组装结果。下图使用上游 5 组 19 个姿势及扩展画布，仅作预览。
 
 ![晨霜骨架动作](previews/dawnfrost-skeleton.gif)
+
+## 原创女性角色 · 站姿 A
+
+根据上游 65fb25b 的 HEROINES 提示词制作：[8 张原生站姿](heroines/standing) · [角色清单](heroines/manifest.json) · [完整包：原生帧、八倍图和生成原稿](packages/deckblade-heroines-standing-A.zip)。画布 96×80，人物高 64 像素，脚底 y=71。本轮不含动作、分件或游戏解锁配置。
+
+![星澜、霜吟、绯刃、月影、雾铃、鸦羽、焰铳、天穹](previews/heroines-standing.png)

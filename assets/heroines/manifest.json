@@ -1,0 +1,156 @@
+{
+  "sourceCommit": "65fb25b38f8ea1ba848b004b6e3547c37ec27b6a",
+  "output": "A",
+  "frameSize": [
+    96,
+    80
+  ],
+  "upscale": 8,
+  "baselineY": 71,
+  "characters": [
+    {
+      "id": "starweave",
+      "name": "Starweave",
+      "zh": "星澜",
+      "role": "Elemental mage",
+      "roleZh": "元素法师",
+      "bounds": [
+        29,
+        8,
+        66,
+        71
+      ],
+      "eye": [
+        48,
+        16
+      ],
+      "colors": 17
+    },
+    {
+      "id": "frostsong",
+      "name": "Frostsong",
+      "zh": "霜吟",
+      "role": "Ice battle mage",
+      "roleZh": "冰系战斗法师",
+      "bounds": [
+        27,
+        8,
+        67,
+        71
+      ],
+      "eye": [
+        48,
+        15
+      ],
+      "colors": 16
+    },
+    {
+      "id": "crimsonedge",
+      "name": "Crimsonedge",
+      "zh": "绯刃",
+      "role": "Swordswoman",
+      "roleZh": "剑士",
+      "bounds": [
+        26,
+        8,
+        68,
+        71
+      ],
+      "eye": [
+        60,
+        18
+      ],
+      "colors": 17
+    },
+    {
+      "id": "moonshade",
+      "name": "Moonshade",
+      "zh": "月影",
+      "role": "Blade dancer",
+      "roleZh": "双刀舞者",
+      "bounds": [
+        28,
+        8,
+        67,
+        71
+      ],
+      "eye": [
+        48,
+        15
+      ],
+      "colors": 15
+    },
+    {
+      "id": "mistbell",
+      "name": "Mistbell",
+      "zh": "雾铃",
+      "role": "Summoner",
+      "roleZh": "召唤师",
+      "bounds": [
+        29,
+        8,
+        65,
+        71
+      ],
+      "eye": [
+        50,
+        15
+      ],
+      "colors": 16
+    },
+    {
+      "id": "ravenquill",
+      "name": "Ravenquill",
+      "zh": "鸦羽",
+      "role": "Hex witch",
+      "roleZh": "暗系咒术师",
+      "bounds": [
+        31,
+        8,
+        63,
+        71
+      ],
+      "eye": [
+        49,
+        19
+      ],
+      "colors": 16
+    },
+    {
+      "id": "pyrebrass",
+      "name": "Pyrebrass",
+      "zh": "焰铳",
+      "role": "Gunslinger",
+      "roleZh": "枪手",
+      "bounds": [
+        33,
+        8,
+        61,
+        71
+      ],
+      "eye": [
+        48,
+        17
+      ],
+      "colors": 18
+    },
+    {
+      "id": "skyward",
+      "name": "Skyward",
+      "zh": "天穹",
+      "role": "Holy knight",
+      "roleZh": "圣骑士",
+      "bounds": [
+        25,
+        8,
+        70,
+        71
+      ],
+      "eye": [
+        58,
+        16
+      ],
+      "colors": 15
+    }
+  ]
+}
