@@ -36,3 +36,9 @@
 根据上游 65fb25b 的 HEROINES 提示词制作：[8 张原生站姿](heroines/standing) · [角色清单](heroines/manifest.json) · [完整包：原生帧、八倍图和生成原稿](packages/deckblade-heroines-standing-A.zip)。画布 96×80，人物高 64 像素，脚底 y=71。本轮不含动作、分件或游戏解锁配置。
 
 ![星澜、霜吟、绯刃、月影、雾铃、鸦羽、焰铳、天穹](previews/heroines-standing.png)
+
+## 女性角色 · 九格战斗骨架分件
+
+按上游 6d7dead 为八位角色各制作 9 件，原生 104×124、八倍 832×992。[独立角色图集](heroines/parts) · [完整包：图集、组装器、姿势、验收图](packages/deckblade-heroines-parts.zip) · [五组动作预览](previews/heroines-skeleton.gif)。八人共 152 个姿势已离线验证；不替换站姿，不改游戏代码。
+
+![八位角色的骨架战斗姿势](previews/heroines-combat-lineup.png)
