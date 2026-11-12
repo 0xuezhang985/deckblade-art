@@ -50,3 +50,7 @@
 ## Glamour 站姿返工 1 与六套战斗分件
 
 依据上游 66a21ae：赤鬃分材质配色，夜蔷整理裙褶、提亮面部并加清晰翼领。其余六位保留原站姿，现已添加九格战斗分件。六套原生/八倍图通过 114 个骨架姿势复验。[16 位站姿包](packages/deckblade-heroines-standing-A.zip) · [14 位分件包](packages/deckblade-heroines-parts.zip)。未修改游戏代码。
+
+## Glamour 分件返工 2
+
+根据上游 8ab9dee：只重画红心的头格，保留其余八格；以已确认站姿制作赤鬃与夜蔷的九格分件。站姿、其余十三位分件不变。[完整分件包（16 位）](packages/deckblade-heroines-parts.zip) · [原生部件](heroines/parts) · [骨架动作预览](previews/heroines-skeleton.gif)。

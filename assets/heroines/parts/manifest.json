@@ -247,9 +247,9 @@
       "id": "queenheart",
       "name": "Queenheart",
       "zh": "红心",
-      "colors": 21,
+      "colors": 23,
       "partPixels": {
-        "head": 264,
+        "head": 217,
         "torso": 417,
         "upperArm": 148,
         "foreArm": 136,
@@ -362,8 +362,58 @@
         17
       ],
       "checkedPoses": 19
+    },
+    {
+      "id": "nightrose",
+      "name": "Nightrose",
+      "zh": "夜蔷",
+      "colors": 19,
+      "partPixels": {
+        "head": 285,
+        "torso": 389,
+        "upperArm": 135,
+        "foreArm": 132,
+        "thigh": 286,
+        "shin": 148,
+        "foot": 103,
+        "cape": 520,
+        "sword": 242
+      },
+      "weaponBounds": [
+        1,
+        4,
+        59,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "redmane",
+      "name": "Redmane",
+      "zh": "赤鬃",
+      "colors": 19,
+      "partPixels": {
+        "head": 291,
+        "torso": 407,
+        "upperArm": 143,
+        "foreArm": 140,
+        "thigh": 266,
+        "shin": 165,
+        "foot": 113,
+        "cape": 515,
+        "sword": 306
+      },
+      "weaponBounds": [
+        1,
+        1,
+        58,
+        17
+      ],
+      "checkedPoses": 19
     }
   ],
-  "latestAdditionPromptCommit": "66a21ae7984bae6352ce6f45ad04dfef0152e5ae",
-  "latestAdditionStandingCommit": "4872693e62fe0f4de2185ed12cc1a9cc94694cd1"
+  "latestAdditionPromptCommit": "8ab9deea9529c87d6f519f9d04a0d63dc5bb6afa",
+  "latestAdditionStandingCommit": "d4705cb7c0aa2deccb2ddf5567780bbb2542c400",
+  "glamourReworkRound": 2,
+  "glamourReworkParent": "d4705cb7c0aa2deccb2ddf5567780bbb2542c400"
 }
