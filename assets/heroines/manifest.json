@@ -269,14 +269,14 @@
       "bounds": [
         21,
         8,
-        73,
+        78,
         71
       ],
       "eye": [
         48,
         16
       ],
-      "colors": 18
+      "colors": 19
     },
     {
       "id": "redmane",
@@ -291,11 +291,12 @@
         71
       ],
       "eye": [
-        46,
-        16
+        47,
+        18
       ],
       "colors": 19
     }
   ],
-  "baseStandingPromptCommit": "65fb25b38f8ea1ba848b004b6e3547c37ec27b6a"
+  "baseStandingPromptCommit": "65fb25b38f8ea1ba848b004b6e3547c37ec27b6a",
+  "reworkPromptCommit": "66a21ae7984bae6352ce6f45ad04dfef0152e5ae"
 }

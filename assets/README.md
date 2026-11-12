@@ -46,3 +46,7 @@
 ## Glamour 系列 · 站姿第 1 轮
 
 蕾刃、红心、浪花、炎舞、翠凰、雷音、夜蔷、赤鬃：已按上游 8098830 加入[固定站姿目录](heroines/standing)和[清单](heroines/manifest.json)。[女性角色完整站姿包（共 16 位）](packages/deckblade-heroines-standing-A.zip)含原稿、原生帧、八倍图。[全部站姿预览](previews/heroines-standing.png)。本轮未改动骨架分件。
+
+## Glamour 站姿返工 1 与六套战斗分件
+
+依据上游 66a21ae：赤鬃分材质配色，夜蔷整理裙褶、提亮面部并加清晰翼领。其余六位保留原站姿，现已添加九格战斗分件。六套原生/八倍图通过 114 个骨架姿势复验。[16 位站姿包](packages/deckblade-heroines-standing-A.zip) · [14 位分件包](packages/deckblade-heroines-parts.zip)。未修改游戏代码。

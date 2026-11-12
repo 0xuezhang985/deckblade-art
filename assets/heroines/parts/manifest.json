@@ -218,6 +218,152 @@
         17
       ],
       "checkedPoses": 19
+    },
+    {
+      "id": "lacecut",
+      "name": "Lacecut",
+      "zh": "蕾刃",
+      "colors": 16,
+      "partPixels": {
+        "head": 307,
+        "torso": 377,
+        "upperArm": 137,
+        "foreArm": 130,
+        "thigh": 249,
+        "shin": 158,
+        "foot": 108,
+        "cape": 395,
+        "sword": 388
+      },
+      "weaponBounds": [
+        1,
+        2,
+        56,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "queenheart",
+      "name": "Queenheart",
+      "zh": "红心",
+      "colors": 21,
+      "partPixels": {
+        "head": 264,
+        "torso": 417,
+        "upperArm": 148,
+        "foreArm": 136,
+        "thigh": 226,
+        "shin": 156,
+        "foot": 108,
+        "cape": 582,
+        "sword": 322
+      },
+      "weaponBounds": [
+        1,
+        3,
+        56,
+        16
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "seafoam",
+      "name": "Seafoam",
+      "zh": "浪花",
+      "colors": 21,
+      "partPixels": {
+        "head": 292,
+        "torso": 406,
+        "upperArm": 154,
+        "foreArm": 140,
+        "thigh": 289,
+        "shin": 158,
+        "foot": 111,
+        "cape": 449,
+        "sword": 307
+      },
+      "weaponBounds": [
+        1,
+        1,
+        56,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "emberdance",
+      "name": "Emberdance",
+      "zh": "炎舞",
+      "colors": 20,
+      "partPixels": {
+        "head": 291,
+        "torso": 383,
+        "upperArm": 148,
+        "foreArm": 150,
+        "thigh": 297,
+        "shin": 174,
+        "foot": 104,
+        "cape": 600,
+        "sword": 236
+      },
+      "weaponBounds": [
+        1,
+        1,
+        56,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "jadephoenix",
+      "name": "Jadephoenix",
+      "zh": "翠凰",
+      "colors": 19,
+      "partPixels": {
+        "head": 292,
+        "torso": 395,
+        "upperArm": 151,
+        "foreArm": 143,
+        "thigh": 292,
+        "shin": 154,
+        "foot": 114,
+        "cape": 357,
+        "sword": 350
+      },
+      "weaponBounds": [
+        1,
+        1,
+        56,
+        17
+      ],
+      "checkedPoses": 19
+    },
+    {
+      "id": "thunderpop",
+      "name": "Thunderpop",
+      "zh": "雷音",
+      "colors": 21,
+      "partPixels": {
+        "head": 329,
+        "torso": 388,
+        "upperArm": 139,
+        "foreArm": 142,
+        "thigh": 268,
+        "shin": 153,
+        "foot": 108,
+        "cape": 399,
+        "sword": 299
+      },
+      "weaponBounds": [
+        1,
+        1,
+        56,
+        17
+      ],
+      "checkedPoses": 19
     }
-  ]
+  ],
+  "latestAdditionPromptCommit": "66a21ae7984bae6352ce6f45ad04dfef0152e5ae",
+  "latestAdditionStandingCommit": "4872693e62fe0f4de2185ed12cc1a9cc94694cd1"
 }
