@@ -42,3 +42,7 @@
 按上游 6d7dead 为八位角色各制作 9 件，原生 104×124、八倍 832×992。[独立角色图集](heroines/parts) · [完整包：图集、组装器、姿势、验收图](packages/deckblade-heroines-parts.zip) · [五组动作预览](previews/heroines-skeleton.gif)。八人共 152 个姿势已离线验证；不替换站姿，不改游戏代码。
 
 ![八位角色的骨架战斗姿势](previews/heroines-combat-lineup.png)
+
+## Glamour 系列 · 站姿第 1 轮
+
+蕾刃、红心、浪花、炎舞、翠凰、雷音、夜蔷、赤鬃：已按上游 8098830 加入[固定站姿目录](heroines/standing)和[清单](heroines/manifest.json)。[女性角色完整站姿包（共 16 位）](packages/deckblade-heroines-standing-A.zip)含原稿、原生帧、八倍图。[全部站姿预览](previews/heroines-standing.png)。本轮未改动骨架分件。
